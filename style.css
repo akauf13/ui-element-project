@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+h1, span {
+  display: flex;
+  color: black;
+  font-size: 36px;
+  /* text-align: center; */
+}
+span {
+  color: #046529;
+  padding-left: .3em;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  min-height: 550px;
+  min-width: 25%;
+  background-color: #f2e332;
+  text-align: center;
+}
+
+img {
+  height: 250px;
+  max-width: 200px;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  background-color: #046529;
+  overflow: scroll;
+  align-content: center;
+}
+
+.btn1 {
+display: flex;
+flex-direction: row;
+}
