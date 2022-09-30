@@ -7,7 +7,8 @@ body {
   height: 100vh;
   background-image: url("https://images6.alphacoders.com/321/thumb-1920-321927.jpg");
 }
-h1, span {
+h1,
+span {
   display: flex;
   color: black;
   font-size: 36px;
@@ -16,12 +17,10 @@ h1, span {
 }
 span {
   color: #046529;
-  padding-left: .3em;
-  
+  padding-left: 0.3em;
 }
 h1 {
-  padding-right: .3em;
-
+  padding-right: 0.3em;
 }
 
 .card {
@@ -56,17 +55,30 @@ img {
 }
 
 .buttons {
-display: flex;
-flex-direction: row;
-margin: 30px;
-justify-content: space-around;
-
+  display: flex;
+  flex-direction: row;
+  /* margin: 30px; */
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 30px 60px;
+  /* min-height: 40px;
+  min-width: 100px; */
+  /* text-align: center;
+  margin: 40px; */
 }
 
-.left {
+.left, .right {
   display: flex;
   justify-content: space-around;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  padding: 6px 10px 6px 10px;
+  min-width: 60px;
+}
+.left {
+margin-right: 15px;
+}
+.right {
+margin-left: 15px;
 }
 
 .left:hover {
